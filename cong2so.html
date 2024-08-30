@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="javascript">
+        function cong2so(){
+            var so1=parseInt(myform.txtso1.value);
+            var so2=parseInt(myform.txtso2.value);
+            var kq=so1+so2;
+            document.write('ket qua:' + kq);
+        }
+    </script>
+</head>
+<body>
+    <form name="myform">
+        <input type="text" name="txtso1" />
+        <input type="text" name="txtso2" />
+        <input type="button" value="cộng" onclick="cong2so()" />
+        
+    </form>
+</body>
+</html>
